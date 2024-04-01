@@ -3,6 +3,8 @@
     <BlogComponent />
     <blogsDetails />
     <ProjectComponent />
+    <ProjectDetailsComponent />
+
 
   </div>
 </template>
@@ -12,13 +14,16 @@
 import blogsDetails from './components/blogsDetails.vue';
 import BlogComponent from './components/BlogComponent.vue';
 import ProjectComponent from './components/ProjectComponent.vue';
+import ProjectDetailsComponent from './components/ProjectDetailsComponent.vue';
 
 export default {
   name: 'App',
   components: {
     BlogComponent,
     blogsDetails,
-    ProjectComponent
+    ProjectComponent,
+    ProjectDetailsComponent,
+
   }
 }
 </script>
